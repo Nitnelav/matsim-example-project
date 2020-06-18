@@ -135,18 +135,20 @@ public class LinkStatStruct {
             Coord[] coords = ((Coord[]) link.getAttributes().getAttribute("geometry"));
             Coordinate[] result = new Coordinate[coords.length];
             for (int i = 0; i < coords.length; i++) {
-                result[i] = new Coordinate(coords[i].getX(), coords[i].getY());
+                result[i] = new Coordinate(coords[i].getX(), coords[i].getY(), 0.5);
             }
             return result;
         } else {
             Coordinate[] result = new Coordinate[2];
             result[0] = new Coordinate(
                     link.getFromNode().getCoord().getX(),
-                    link.getFromNode().getCoord().getY()
+                    link.getFromNode().getCoord().getY(),
+                    0.5
             );
             result[1] = new Coordinate(
                     link.getToNode().getCoord().getX(),
-                    link.getToNode().getCoord().getY()
+                    link.getToNode().getCoord().getY(),
+                    0.5
             );
             return result;
         }
