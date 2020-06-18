@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE network SYSTEM "http://www.matsim.org/files/dtd/network_v2.dtd">
+<network>
+
+<!-- ====================================================================== -->
+
+	<nodes>
+		<node id="l" x="-100" y="0"/>
+		<node id="b" x="0" y="-100"/>
+		<node id="c" x="0" y="0"/>
+		<node id="t" x="0" y="100"/>
+		<node id="r" x="100" y="0"/>
+
+		<node id="t1" x="0" y="10"/>
+		<node id="t2" x="0" y="20"/>
+		<node id="t3" x="0" y="30"/>
+		<node id="t4" x="0" y="40"/>
+		<node id="t5" x="0" y="50"/>
+		<node id="t6" x="0" y="60"/>
+		<node id="t7" x="0" y="70"/>
+		<node id="t8" x="0" y="80"/>
+		<node id="t9" x="0" y="90"/>
+
+	</nodes>
+
+<!-- ====================================================================== -->
+
+	<links capperiod="01:00:00" effectivecellsize="7.5" effectivelanewidth="3.75">
+		<link id="lc" from="l" to="c" length="100" freespeed="10" capacity="1000.0" permlanes="1.0" oneway="1"
+			  modes="car"/>
+		<link id="cl" from="c" to="l" length="100" freespeed="10" capacity="1000.0" permlanes="1.0" oneway="1"
+			  modes="car"/>
+		<link id="bc" from="b" to="c" length="100" freespeed="10" capacity="1000.0" permlanes="1.0" oneway="1"
+			  modes="car"/>
+		<link id="cb" from="c" to="b" length="100" freespeed="10" capacity="1000.0" permlanes="1.0" oneway="1"
+			  modes="car"/>
+		<link id="tc" from="t" to="c" length="100" freespeed="10" capacity="1000.0" permlanes="1.0" oneway="1"
+			  modes="car"/>
+
+		<link id="ct_0" from="c" to="t1" length="10" freespeed="10" capacity="1000.0" permlanes="1.0" oneway="1"
+			  modes="car"/>
+		<link id="ct_1" from="t1" to="t2" length="10" freespeed="10" capacity="1000.0" permlanes="1.0" oneway="1"
+			  modes="car"/>
+		<link id="ct_2" from="t2" to="t3" length="10" freespeed="10" capacity="1000.0" permlanes="1.0" oneway="1"
+			  modes="car"/>
+		<link id="ct_3" from="t3" to="t4" length="10" freespeed="10" capacity="1000.0" permlanes="1.0" oneway="1"
+			  modes="car"/>
+		<link id="ct_4" from="t4" to="t5" length="10" freespeed="10" capacity="1000.0" permlanes="1.0" oneway="1"
+			  modes="car"/>
+		<link id="ct_5" from="t5" to="t6" length="10" freespeed="10" capacity="1000.0" permlanes="1.0" oneway="1"
+			  modes="car"/>
+		<link id="ct_6" from="t6" to="t7" length="10" freespeed="10" capacity="1000.0" permlanes="1.0" oneway="1"
+			  modes="car"/>
+		<link id="ct_7" from="t7" to="t8" length="10" freespeed="10" capacity="1000.0" permlanes="1.0" oneway="1"
+			  modes="car"/>
+		<link id="ct_8" from="t8" to="t9" length="10" freespeed="10" capacity="1000.0" permlanes="1.0" oneway="1"
+			  modes="car"/>
+		<link id="ct_9" from="t9" to="t" length="10" freespeed="10" capacity="1000.0" permlanes="1.0" oneway="1"
+			  modes="car"/>
+
+		<link id="rc" from="r" to="c" length="100" freespeed="10" capacity="1000.0" permlanes="1.0" oneway="1"
+			  modes="car"/>
+		<link id="cr" from="c" to="r" length="100" freespeed="10" capacity="1000.0" permlanes="1.0" oneway="1"
+			  modes="car"/>
+	</links>
+
+<!-- ====================================================================== -->
+
+</network>

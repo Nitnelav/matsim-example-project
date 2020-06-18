@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<events version="1.0">
+	<event time="21600.0" type="actend" person="1" link="cl" actType="h"  />
+	<event time="21600.0" type="departure" person="1" link="cl" legMode="car"  />
+	<event time="21600.0" type="PersonEntersVehicle" person="1" vehicle="1"  />
+	<event time="21600.0" type="vehicle enters traffic" person="1" link="cl" vehicle="1" networkMode="car" relativePosition="1.0"  />
+	<event time="21601.0" type="left link" vehicle="1" link="cl"  />
+	<event time="21601.0" type="entered link" vehicle="1" link="lc"  />
+	<event time="21612.0" type="left link" vehicle="1" link="lc"  />
+	<event time="21612.0" type="entered link" vehicle="1" link="cr"  />
+	<event time="21622.0" type="vehicle leaves traffic" person="1" link="cr" vehicle="1" networkMode="car" relativePosition="1.0"  />
+	<event time="21622.0" type="PersonLeavesVehicle" person="1" vehicle="1"  />
+	<event time="21622.0" type="arrival" person="1" link="cr" legMode="car"  />
+	<event time="21622.0" type="actstart" person="1" link="cr" actType="w"  />
+	<event time="28822.0" type="actend" person="1" link="cr" actType="w"  />
+	<event time="28822.0" type="departure" person="1" link="cr" legMode="car"  />
+	<event time="28822.0" type="PersonEntersVehicle" person="1" vehicle="1"  />
+	<event time="28822.0" type="vehicle enters traffic" person="1" link="cr" vehicle="1" networkMode="car" relativePosition="1.0"  />
+	<event time="28823.0" type="left link" vehicle="1" link="cr"  />
+	<event time="28823.0" type="entered link" vehicle="1" link="rc"  />
+	<event time="28834.0" type="left link" vehicle="1" link="rc"  />
+	<event time="28834.0" type="entered link" vehicle="1" link="ct_0"  />
+	<event time="28836.0" type="left link" vehicle="1" link="ct_0"  />
+	<event time="28836.0" type="entered link" vehicle="1" link="ct_1"  />
+	<event time="28838.0" type="left link" vehicle="1" link="ct_1"  />
+	<event time="28838.0" type="entered link" vehicle="1" link="ct_2"  />
+	<event time="28840.0" type="left link" vehicle="1" link="ct_2"  />
+	<event time="28840.0" type="entered link" vehicle="1" link="ct_3"  />
+	<event time="28842.0" type="left link" vehicle="1" link="ct_3"  />
+	<event time="28842.0" type="entered link" vehicle="1" link="ct_4"  />
+	<event time="28844.0" type="left link" vehicle="1" link="ct_4"  />
+	<event time="28844.0" type="entered link" vehicle="1" link="ct_5"  />
+	<event time="28846.0" type="left link" vehicle="1" link="ct_5"  />
+	<event time="28846.0" type="entered link" vehicle="1" link="ct_6"  />
+	<event time="28848.0" type="left link" vehicle="1" link="ct_6"  />
+	<event time="28848.0" type="entered link" vehicle="1" link="ct_7"  />
+	<event time="28850.0" type="left link" vehicle="1" link="ct_7"  />
+	<event time="28850.0" type="entered link" vehicle="1" link="ct_8"  />
+	<event time="28852.0" type="left link" vehicle="1" link="ct_8"  />
+	<event time="28852.0" type="entered link" vehicle="1" link="ct_9"  />
+	<event time="28853.0" type="vehicle leaves traffic" person="1" link="ct_9" vehicle="1" networkMode="car" relativePosition="1.0"  />
+	<event time="28853.0" type="PersonLeavesVehicle" person="1" vehicle="1"  />
+	<event time="28853.0" type="arrival" person="1" link="ct_9" legMode="car"  />
+	<event time="28853.0" type="actstart" person="1" link="ct_9" actType="w"  />
+	<event time="36053.0" type="actend" person="1" link="ct_9" actType="w"  />
+	<event time="36053.0" type="departure" person="1" link="ct_9" legMode="car"  />
+	<event time="36053.0" type="PersonEntersVehicle" person="1" vehicle="1"  />
+	<event time="36053.0" type="vehicle enters traffic" person="1" link="ct_9" vehicle="1" networkMode="car" relativePosition="1.0"  />
+	<event time="36054.0" type="left link" vehicle="1" link="ct_9"  />
+	<event time="36054.0" type="entered link" vehicle="1" link="tc"  />
+	<event time="36065.0" type="left link" vehicle="1" link="tc"  />
+	<event time="36065.0" type="entered link" vehicle="1" link="cl"  />
+	<event time="36075.0" type="vehicle leaves traffic" person="1" link="cl" vehicle="1" networkMode="car" relativePosition="1.0"  />
+	<event time="36075.0" type="PersonLeavesVehicle" person="1" vehicle="1"  />
+	<event time="36075.0" type="arrival" person="1" link="cl" legMode="car"  />
+	<event time="36075.0" type="actstart" person="1" link="cl" actType="h"  />
+</events>
